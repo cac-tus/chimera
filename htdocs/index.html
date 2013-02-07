@@ -14,7 +14,8 @@
         <title></title>
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <!-- /とりあえず不要と思いmodenizrはコメントアウトしました -->
+        <!-- // <script src="js/vendor/modernizr-2.6.2.min.js"></script> -->
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -24,7 +25,9 @@
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+        <!-- gruntですべて結合 -->
+        <script src="js/all.js"></script>
+        <!-- デプロイするとき？は以下のminバージョンをあげるようにしたい -->
+        <!-- // <script src="js/all.min.js"></script> -->
     </body>
 </html>
