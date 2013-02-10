@@ -10,7 +10,8 @@ module.exports = function(grunt) {
     var jsFiles = [
 			'js/plugins.js',
 			'js/three.js',
-			'js/sample.js'
+			// 'js/sample.js'
+			'js/sample_load_blender.js'
     ];
 
     //タスクを初期化する

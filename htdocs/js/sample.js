@@ -42,7 +42,6 @@ function init() {
 	var texture = THREE.ImageUtils.loadTexture( 'textures/crate.gif' );
 	texture.anisotropy = renderer.getMaxAnisotropy();
 
-
 	// 素材を決定
 	// parameters is an object with one or more properties defining the material's appearance.
 	/*
@@ -91,7 +90,6 @@ function onWindowResize() {
 }
 
 
-
 /**
  * アニメーションの定義
  */
@@ -104,10 +102,7 @@ function animate() {
 
 	mesh.rotation.x += 0.005;
 	mesh.rotation.y += 0.01;
-	
-	// どこにも再帰呼び出しが書いてない
-	// 完全にwrapしてる感じ
-	// oFみたいになってきたな
+
 	renderer.render( scene, camera );
 
 }
