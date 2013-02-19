@@ -62,7 +62,7 @@ module.exports = function(grunt) {
 
 
         // grunt-contrib-watchに関する設定
-        // ↑で定義したcssFilesのファイルを監視し、
+        // ↑で定義したcssFiles, jsFilesのファイルを監視し、
         // 変更があった場合にtasksに定義されるタスクが実行される
         watch: {
 

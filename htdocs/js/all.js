@@ -35816,7 +35816,6 @@ var camera, scene, renderer;
 var mesh;
 
 init();
-
 //animate関数なかでレンダリングを実行
 // animate();
 

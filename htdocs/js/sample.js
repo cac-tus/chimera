@@ -16,11 +16,11 @@ function init() {
 
 	/**
 	 * カメラを作成
-	 * 透視投影カメラ 
+	 * 透視投影カメラ
 	 * 視野体積等を作成
 	 * @type {THREE}
 	 */
-	camera = new THREE.PerspectiveCamera( 
+	camera = new THREE.PerspectiveCamera(
 		70,  // fov — camera frustum vertical field of view.
 		window.innerWidth / window.innerHeight,  // aspect — camera frustum aspect ratio.
 		1, // near — camera frustum near plane.
@@ -71,7 +71,7 @@ function init() {
 /********* End Create Object ***********/
 
 
-	// 作成したオブジェクトをシーンに追加	
+	// 作成したオブジェクトをシーンに追加
 	scene.add( mesh );
 
 	window.addEventListener( 'resize', onWindowResize, false );
