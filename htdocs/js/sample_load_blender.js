@@ -51,7 +51,7 @@ function init() {
 		texturePath — optional. If not specified, textures will be assumed to be in the same folder as the Javascript model file.
 	*/
 	// オブジェクトデータがロードし終わったら、 creatSceneを実行する
-	loader.load( "../sample_data/monky3.js", createScene );
+	loader.load( "../sample_data/monky4.js", createScene );
 
 	window.addEventListener( 'resize', onWindowResize, false );
 }
