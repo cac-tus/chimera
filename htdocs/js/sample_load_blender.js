@@ -4,7 +4,6 @@ var mesh;
 init();
 //animate関数なかでレンダリングを実行
 // animate();
-
 function init() {
 	//レンダラーを作成
 	renderer = new THREE.WebGLRenderer();

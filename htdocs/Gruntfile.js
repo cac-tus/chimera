@@ -14,7 +14,8 @@ module.exports = function(grunt) {
 			'js/plugins.js',
 			'js/three.js',
 			// 'js/sample.js'
-			'js/sample_load_blender.js'
+			'js/sample_load_blender.js',
+            'js/jquery.isotope.min.js'
     ];
 
     //タスクを初期化する
