@@ -6,7 +6,10 @@ module.exports = function(grunt) {
     // ワイルドカードつかのはミスとかバグにつながりそうなので
     // 一個ずつかきましょうか。。？
     // 依存関係も明確になるし
-    var sassFiles = [];
+    var sassFiles = [
+        "sass/main.scss"
+    ];
+
     var jsFiles = [
 			'js/plugins.js',
 			'js/three.js',

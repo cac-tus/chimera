@@ -8,10 +8,10 @@ init();
 function init() {
 	//レンダラーを作成
 	renderer = new THREE.WebGLRenderer();
-
 	//描画領域を指定
-	renderer.setSize( window.innerWidth, window.innerHeight );
-	renderer.setClearColorHex(0x555555, 1);
+	renderer.domElement.id = "3d_logo";
+	renderer.setSize( 200, 100 );
+	renderer.setClearColorHex(0xffffff, 1);
 
 	// body直下に配置
 	document.body.appendChild( renderer.domElement );
@@ -23,10 +23,10 @@ function init() {
 	 * @type {THREE}
 	 */
 	camera = new THREE.PerspectiveCamera(
-		20, // fov — camera frustum vertical field of view.
+		18, // fov — camera frustum vertical field of view.
 		window.innerWidth / window.innerHeight,  // aspect — camera frustum aspect ratio.
-		10, // near — camera frustum near plane.
-		30 // far — camera frustum far plane.
+		5, // near — camera frustum near plane.
+		20 // far — camera frustum far plane.
 	);
 	// 高さ初期位置
 	camera.position.z = 20;
