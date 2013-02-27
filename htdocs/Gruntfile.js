@@ -19,7 +19,6 @@ module.exports = function(grunt) {
 
     //タスクを初期化する
     grunt.initConfig({
-
         // grunt-contrib-concatに関する設定
         // ↑で定義したcssFilesのファイルを結合し
         // cssフォルダ下にall.cssとして出力する

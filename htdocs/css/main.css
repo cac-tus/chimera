@@ -64,8 +64,33 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /* line 3, ../sass/main.scss */
-#3d_logo {
-  position: fixed;
+.str_logo {
+  position: absolute;
   left: 0;
   top: 0;
+  margin: 20px 0 0 20px;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 56px;
+  z-index: 100;
+}
+
+/* line 14, ../sass/main.scss */
+.blank100 {
+  margin-top: 100px;
+  width: 100%;
+}
+
+/* line 18, ../sass/main.scss */
+.blank200 {
+  margin-top: 200px;
+  width: 100%;
+}
+
+/* line 22, ../sass/main.scss */
+canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
 }

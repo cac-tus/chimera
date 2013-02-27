@@ -35824,8 +35824,8 @@ function init() {
 	renderer = new THREE.WebGLRenderer();
 	//描画領域を指定
 	renderer.domElement.id = "3d_logo";
-	renderer.setSize( 200, 100 );
-	renderer.setClearColorHex(0xffffff, 1);
+	renderer.setSize( 600, 100 );
+	renderer.setClearColorHex(0xffffff, 0.2);
 
 	// body直下に配置
 	document.body.appendChild( renderer.domElement );
