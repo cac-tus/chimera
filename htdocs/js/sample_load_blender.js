@@ -7,6 +7,7 @@ init();
 function init() {
 	//レンダラーを作成
 	renderer = new THREE.WebGLRenderer();
+	
 	//描画領域を指定
 	renderer.domElement.id = "3d_logo";
 	renderer.setSize( 600, 100 );
