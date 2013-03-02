@@ -87,10 +87,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   width: 100%;
 }
 
-/* line 22, ../sass/main.scss */
+/* line 23, ../sass/main.scss */
 canvas {
   position: absolute;
   left: 0;
   top: 0;
   z-index: 1;
+}
+
+/* line 31, ../sass/main.scss */
+.iso_item {
+  width: 100px;
+  height: 100px;
+  border: 1px solid gray;
+  margin: 20px;
 }

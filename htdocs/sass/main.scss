@@ -19,10 +19,20 @@
 	margin-top: 200px;
 	width: 100%;
 }
+
 canvas{
 	position: absolute;
 	left: 0;
 	top: 0;
 	z-index: 1;
 }
+
+
+.iso_item{
+	width: 100px;
+	height: 100px;
+	border: 1px solid gray;
+	margin: 20px;
+}
+
 

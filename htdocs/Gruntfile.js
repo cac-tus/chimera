@@ -15,7 +15,8 @@ module.exports = function(grunt) {
 			'js/three.js',
 			// 'js/sample.js'
 			'js/sample_load_blender.js',
-            'js/jquery.isotope.min.js'
+            'js/jquery.isotope.min.js',
+            'js/chimera_isotope.js'
     ];
 
     //タスクを初期化する

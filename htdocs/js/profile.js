@@ -25,15 +25,15 @@ init = function(){
 
 	renderer = new THREE.WebGLRenderer();
 	renderer.domElement.id = "renderer";
-	renderer.setSize( _w, _h);
+	renderer.setSize( _w/2, _h/2);
 	renderer.setClearColorHex( 0xf2f2f2, 1);
 	document.body.appendChild( renderer.domElement );
 
 	camera = new THREE.PerspectiveCamera( 70, _w / _h, 1, 1000);
-	camera.position.y = 220;
-	camera.position.x = 100;
-	camera.position.z = 200;
-	camera.lookAt( new THREE.Vector3( 1, 1, 2 ) );
+	camera.position.y = 230;
+	camera.position.x = 0;
+	camera.position.z = 0;
+	camera.lookAt( new THREE.Vector3( 1, 2, 1 ) );
 
 	scene = new THREE.Scene();
 
